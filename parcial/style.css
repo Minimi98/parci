@@ -1,0 +1,159 @@
+
+body{
+  background-image: url(img/ypy9U0O.jpeg);
+}
+/*conf - botones*/
+/* quitar viñetas*/
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+/*espacios*/
+nav li{
+  line-height: 4rem;
+  position: relative;
+}
+nav li lu{
+  position: absolute;
+}
+/*letra botones*/
+.menu a {
+  color: rgb(255, 0, 0);
+   text-shadow:
+    2px 2px 8px black,
+    0 0 2em rgb(193, 10, 209),
+    0 0 0.4em rgb(129, 20, 157);
+  background-image: url(img/descarga.jpg);
+  display: block;
+  padding: 0 2.5em;
+  font-size: 30px;
+  text-decoration: none;
+  font-family: cursive;
+  transition: 0.4s;
+}
+nav a:hover{
+  background: rgba(2, 227, 36, 0.5);
+}
+
+/*1 nivel color menu*/
+.menu{
+  background: transparent;
+  display: table;
+  width: 100%;
+}
+/*alinear*/
+.menu>li{
+  float: left;
+}
+/*esconder menu*/
+nav li li{
+  background: #222;
+  background-image: url(img/descarga.jpg);
+  max-height: 0;
+  overflow: hidden;
+  transition: all .4s;
+  width: 250px;
+}
+/*aparece menu*/
+nav li:hover>ul>li{
+  max-height: 1000px;
+  overflow: visible;
+}
+.menu>li>ul{
+  top: 100%;
+}
+.menu{
+    left: 100%;
+    top: 0;
+}.menu{
+  left: 100%;
+  top: 0;
+}
+
+/* fin menu*/
+
+.logo{
+  color: rgb(43, 255, 0);
+  text-shadow:
+    1px 1px 8px black,
+    0 0 2em rgb(194, 12, 211),
+    0 0 0.4em rgb(129, 20, 157);
+  font-size: 40px;
+  font-family: cursive;
+}
+
+
+
+/*texto*/
+
+h1  a{
+  font-size: 50px;
+  text-align: center;
+  font-family: cursive;
+  color: yellow;
+  text-shadow:
+    1px 1px 8px black,
+    0 0 2em rgb(194, 12, 211),
+    0 0 0.4em rgb(129, 20, 157);
+  
+}
+/*titulo juego*/
+.titu{
+  text-align: center;
+  background: blue;
+  border: #222;
+  height: 50%;
+  width: 50%;
+  transform: translateX(40%);
+}
+
+
+p{
+  font-size: 24px;
+  color: aqua; text-shadow:
+  1px 1px 8px black,
+  0 0 2em rgb(15, 12, 211),
+  0 0 0.4em rgb(214, 14, 225);
+
+
+}
+b{
+  color: red;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow:
+  1px 1px 8px black,
+  0 0 2em rgb(15, 12, 211),
+  0 0 0.4em rgb(214, 14, 225);
+
+}
+/*imagenes*/
+#x{
+  float: left;
+  height: 200px;
+  width: 240px;
+  border-radius: 40% 40%;
+  margin: 2%;
+  box-shadow:
+  1px 1px 8px black,
+  0 0 2em rgb(188, 211, 12),
+  0 0 0.4em rgb(34, 239, 12);
+  
+}
+.img #x:hover{
+  background: blue;
+  transform: translate(5%, -16%);
+}
+/* configurar bloques del juego*/
+button a {
+  font-size: 30px;
+}
+
+footer{
+  height: 45px;
+
+  box-shadow:
+  1px 1px 8px black,
+  0 0 2em rgb(188, 211, 12),
+  0 0 0.4em rgb(34, 239, 12);
+  text-align: center;
+}

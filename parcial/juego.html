@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="javs.js"></script>
+    <title>JUEGO (Piedra, Papel o Tijeras)</title>
+</head>
+<body>
+    <header>
+         
+        <nav>
+            
+            <ul class="menu">
+                <li><a href="#" class="logo">Mi proyecto</a></li>
+                <li><a href="principal.html" id="bt">Inicio</a></li>
+                <li><a href="" id="bt">video juegos</a>
+                    <ul>
+                        <li><a href="historia.html" id="bt2" >Historia</a></li>
+                        <li><a href="tiposvdj.html" id="bt2">tipos de videojuegos</a></li>
+                       
+                    </ul>
+                </li>
+                <li><a href="juego.html" id="bt">Juegos</a></li>
+                       
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <nav class="titu">    
+        <h1><a>JUEGO DE PIEDRA, PAPEL O TIJERAS</a></h1>
+        <h2><b>Selecciona tu opción:</b></h2>
+        <button onclick="jugar('piedra')" ><a>Piedra</a></button>
+        <button onclick="jugar('papel')"><a>Papel</a></button>
+        <button onclick="jugar('tijeras')"><a>Tijeras</a></button>
+        <p ><span id="resultado"></span></p>
+        <br>
+        <button><a href="juego.html">Volver</a></button>
+    </nav>
+   
+</body>
+</html>
